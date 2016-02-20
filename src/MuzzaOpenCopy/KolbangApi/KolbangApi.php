@@ -17,7 +17,7 @@ class KolbangApi
     /**
      * @var string The default base URL.
      */
-    const DEFAULT_BASE_URL = 'http://kolbang.app/api/v1';
+    const DEFAULT_BASE_URL = 'http://kolbang.app/api/v1/';
 
     /**
      * Create a new GuzzleClient configured to query the postcodes.io API.
