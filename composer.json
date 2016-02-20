@@ -1,0 +1,21 @@
+{
+  "name": "muzzaopencopy/kolbang-api-client",
+  "description": "API client for Kolbang",
+  "authors": [
+    {
+      "name": "Murray",
+      "email": "murray@opencopy.com.au"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle-services": "0.5.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "MuzzaOpenCopy\\KolbangApi\\": "src"
+    }
+  }
+}
